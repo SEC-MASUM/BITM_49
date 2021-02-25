@@ -39,7 +39,7 @@ namespace HelloWorldWebApp
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText nameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox nameTextBox;
 
         /// <summary>
         /// showButton control.

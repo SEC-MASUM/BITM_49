@@ -16,9 +16,10 @@ namespace HelloWorldWebApp
 
         protected void showButton_Click(object sender, EventArgs e)
         {
+            ViewState["name"] = nameTextBox.Text;
             //Response.Write("Hello");
-            string name = nameTextBox.Value;
-            messageLabel.Text = "Hello " + name;
+            //string name = nameTextBox.Text;
+            messageLabel.Text = "Hello " + ViewState["name"];
         }
 
     }

@@ -11,8 +11,8 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label>
-            <%--<asp:TextBox ID="nameTextBox" runat="server" Width="205px"></asp:TextBox>--%>
-            <input name="nameTextBox" type="text" runat="server" id="nameTextBox" style="width:205px;"/>
+            <asp:TextBox ID="nameTextBox" runat="server" Width="205px"></asp:TextBox>
+            <%--<input name="nameTextBox" type="text"  id="nameTextBox" style="width:205px;"/>--%>
             <br />
             <br />
             <br />
