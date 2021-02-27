@@ -24,7 +24,7 @@
                         <asp:Label ID="Label1" runat="server" Text="First Name"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="firstNameTextBox" runat="server" Width="201px"></asp:TextBox>
+                        <asp:TextBox ID="firstNameTextBox" runat="server" Width="236px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -33,7 +33,7 @@
                         <asp:Label ID="Label2" runat="server" Text="Middle Name"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="middleNameTextBox" runat="server" Width="203px"></asp:TextBox>
+                        <asp:TextBox ID="middleNameTextBox" runat="server" Width="237px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -42,22 +42,22 @@
                         <asp:Label ID="Label3" runat="server" Text="Last NAme"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="lastNameTextBox" runat="server" Width="201px"></asp:TextBox>
+                        <asp:TextBox ID="lastNameTextBox" runat="server" Width="236px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style1">&nbsp;</td>
                     <td>
-                        <asp:Button ID="saveButton" runat="server" Text="Save" />
-                        <asp:Button ID="showAllFullNameButton" runat="server" Text="Get All Full Name" />
+                        <asp:Button ID="saveButton" runat="server" OnClick="saveButton_Click" Text="Save" />
+                        <asp:Button ID="showAllFullNameButton" runat="server" OnClick="showAllFullNameButton_Click" Text="Get All Full Name" />
                     </td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style1">&nbsp;</td>
                     <td>
-                        <asp:ListBox ID="ListBox1" runat="server" Width="203px"></asp:ListBox>
+                        <asp:ListBox ID="fullNameListBox" runat="server" Width="203px"></asp:ListBox>
                     </td>
                     <td>&nbsp;</td>
                 </tr>

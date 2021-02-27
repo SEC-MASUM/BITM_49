@@ -78,6 +78,7 @@
     <Compile Include="HomeUI.aspx.designer.cs">
       <DependentUpon>HomeUI.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
