@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalMealManager", "PersonalMealManager.csproj", "{C7F3B163-7065-4171-BDBE-B266CEAD9A0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7F3B163-7065-4171-BDBE-B266CEAD9A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F3B163-7065-4171-BDBE-B266CEAD9A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F3B163-7065-4171-BDBE-B266CEAD9A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F3B163-7065-4171-BDBE-B266CEAD9A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11BF046C-D234-495C-A561-8EFAF4058647}
+	EndGlobalSection
+EndGlobal
